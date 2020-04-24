@@ -12,10 +12,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.backgroundFix {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .centered {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.descriptionText {
+  font-size: 25px;
+  line-height: 1.2em;
+  color : rgba(255,255,255,.6);
 }
 
 /* variables */
@@ -68,6 +80,7 @@ button {
 /* top section styles */
 
 .homeSectionContainer {
+  transition: 1.3s all ease;
   position: relative;
   background-image: url(/images/HomeBg1.jpg);
   background-repeat: no-repeat;
@@ -142,16 +155,28 @@ nav ul li a:hover {
   position: absolute;
   z-index: 1;
   color : whitesmoke;
-  top : 30%;
+  top : 25%;
   text-align: center;
   width: 100%;
   margin : auto;
 }
-.introTextContainer h1 {
+.introTextContainer h1, #showCase{
+  transition: 1.3s all ease;
   font-weight: 500;
+  font-size: 48px;
+  animation: fadeIn 1.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .introTextContainer p {
-  font-size: 25px;
+  font-size: 26px;
   width: 65%;
   margin : auto;
 }
@@ -164,4 +189,63 @@ nav ul li a:hover {
   display: inline;
   margin : 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* welcome section */
+
+.welcomeContainer {
+  position: relative;
+  display: grid;
+  height: 450px;
+  grid-template-columns: 1fr 1fr;
+}
+.welcomeRight {
+  /* background-color: rgba(0,0,0); */
+  background-image: url(/images/welcomeBg1.jpg);
+}
+
+
+.welcomeContentWrapper {
+  /* padding : 5%; */
+  position: absolute;
+  top : 10%;
+  left : 20%;
+  text-align: center;
+  color : whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  background-color: rgba(0,0,0,.7);
+  padding : 20px 0px;
+  border-radius: 10px;
+}
+.welcomeContentWrapper p {
+  margin: 0px !important;
+}
+.welcomeContentWrapper .descriptionText {
+  width: 80%;
+  padding : auto;
+}
+
+
+
+
+
 

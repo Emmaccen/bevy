@@ -8,7 +8,7 @@ class Navigation extends React.Component {
         <nav className="container">
           <div className='homeLink'>
             <div>
-              <span className='icon icon-instagram2'></span>
+              <span className='icon icon-leaf'></span>
                 Bevily
               <span>Foods</span>
             </div>
