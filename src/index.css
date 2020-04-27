@@ -352,6 +352,7 @@ nav ul li a:hover {
   text-align: center;
   width: 50%;
   margin : auto;
+  margin-bottom: 40px;
 }
 .quickMenuHeader span {
   /* color : var(--iconColor); */
@@ -369,5 +370,5 @@ nav ul li a:hover {
 .quickMenuItemsContainer .QuickMenuItemBg {
   width: 100%;
   height: 400px;
-  background-color: yellowgreen;
+  transition: 1.4s all ease;
 }

@@ -20,40 +20,41 @@ class QuickMenu extends React.Component {
                     </div>
 
                     <div className='quickMenuItemsContainer'>
-                        <div>
+                        
+                        <div className='quickMenuItemWrapper'>
                             <div 
                                 style={{backgroundImage : `url(${'menu/dish-1.jpg'})`}} 
                                 className='QuickMenuItemBg backgroundFix'>
 
                             </div>
                             <div>
-                                <p className='descriptionText2'>Excepteur sint occaecat cupidatat</p>
+                                <p className='descriptionText2'>Excepteur cupidatat sint occaecat cupidatat</p>
                                 <h3 className='heading2'>$ 9.99</h3>
                                 <Button2 buttonText = 'Add To Cart' />
                             </div>
                         </div>
 
-                        <div>
+                        <div className='quickMenuItemWrapper'>
                             <div 
                                 style={{backgroundImage : `url(${'menu/dish-3.jpg'})`}} 
                                 className='QuickMenuItemBg backgroundFix'>
 
                             </div>
                             <div>
-                                <p className='descriptionText2'>Excepteur sint occaecat cupidatat</p>
+                                <p className='descriptionText2'>Excepteur cupidatat sint occaecat cupidatat</p>
                                 <h3 className='heading2'>$ 9.99</h3>
                                 <Button2 buttonText = 'Add To Cart' />
                             </div>
                         </div>
 
-                        <div>
+                        <div className='quickMenuItemWrapper'>
                             <div 
                                 style={{backgroundImage : `url(${'menu/dish-2.jpg'})`}} 
                                 className='QuickMenuItemBg backgroundFix'>
 
                             </div>
                             <div>
-                                <p className='descriptionText2'>Excepteur sint occaecat cupidatat</p>
+                                <p className='descriptionText2'>Excepteur cupidatat sint occaecat cupidatat</p>
                                 <h3 className='heading2'>$ 9.99</h3>
                                 <Button2 buttonText = 'Add To Cart' />
                             </div>
