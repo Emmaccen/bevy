@@ -6,7 +6,7 @@ class QuickServices extends React.Component {
     render () {
         return (
             <div className='quickServicesContainer'>
-                <div>
+                <div className='quickServicesContent'>
                     <div className='quickServicesIconContainer'>
                         <span className='iconFlat flaticon-tray'></span>
                     </div>
@@ -17,7 +17,7 @@ class QuickServices extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className='quickServicesContent'>
                     <div className='quickServicesIconContainer'>
                         <span className='iconFlat flaticon-soup'></span>
                     </div>
@@ -28,7 +28,7 @@ class QuickServices extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className='quickServicesContent'>
                     <div className='quickServicesIconContainer'>
                         <span className='iconFlat flaticon-pancake'></span>
                     </div>
@@ -39,7 +39,7 @@ class QuickServices extends React.Component {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className='quickServicesContent'>
                     <div className='quickServicesIconContainer'>
                         <span className='iconFlat icon-phone3'></span>
                     </div>

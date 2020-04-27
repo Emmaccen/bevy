@@ -66,6 +66,7 @@ a {
 .icon {
   color : var(--iconColor);
   margin-right: 5px;
+  transition: .5s all ease;
 }
 .iconFlat {
   font-size: 50px;
@@ -84,8 +85,17 @@ button {
   padding : 15px;
   border : 1px solid #999;
 }
-.button button:hover {
-  background-color: var(--iconColor)
+.button2 button{
+  outline : none;
+  border: 1px solid var(--iconColor);
+  background-color : transparent;
+  font-size: 13px;
+  color : #333;
+  padding : 7px;
+}
+.button button:hover, .button2 button:hover {
+  background-color: var(--iconColor);
+  color : whitesmoke;
 }
 
 
@@ -234,12 +244,11 @@ nav ul li a:hover {
   padding : 60px 70px;
   gap: 20px;
 }
-.quickServicesIconContainer:hover .iconFlat {
+.quickServicesContent:hover .iconFlat {
   transform: rotate(360deg);
 }
-.quickServicesContainer p {
-  /* width: 80%;
-  margin : auto; */
+.quickServicesContent {
+  cursor: pointer;
 }
 .quickServicesIconContainer {
   width: 100px;
@@ -250,7 +259,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 
 
@@ -281,17 +289,6 @@ nav ul li a:hover {
   width: 70%;
   margin : 0px auto;
 }  */
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* welcome section */
@@ -345,7 +342,32 @@ nav ul li a:hover {
 }
 
 
+/* quick menu section style */
 
+.quickMenuContainer {
+  margin : 100px 0px;
+}
 
+.quickMenuHeader {
+  text-align: center;
+  width: 50%;
+  margin : auto;
+}
+.quickMenuHeader span {
+  /* color : var(--iconColor); */
+  font-size: 70px;
+}
 
-
+.quickMenuItemsContainer {
+  text-align: center;
+  width: 85%;
+  margin : auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.quickMenuItemsContainer .QuickMenuItemBg {
+  width: 100%;
+  height: 400px;
+  background-color: yellowgreen;
+}
