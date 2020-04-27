@@ -29,6 +29,18 @@ body {
   line-height: 1.2em;
   color : rgba(255,255,255,.6);
 }
+.descriptionText2 {
+  font-size: 20px;
+  line-height: 1.3em;
+  /* color : rgba(0,0,0,.8); */
+  color : #666;
+  font-family: cursive;
+}
+.heading2{
+  color : #333;
+  font-family: cursive;
+  font-weight: 400;
+}
 
 /* variables */
 /* rgb(252, 78, 0, 1); */
@@ -54,7 +66,10 @@ a {
 .icon {
   color : var(--iconColor);
   margin-right: 5px;
-
+}
+.iconFlat {
+  font-size: 50px;
+  transition: .5s all ease;
 }
 button {
   transition: .5s all ease;
@@ -190,9 +205,82 @@ nav ul li a:hover {
   margin : 10px;
 }
 
+/* quick contact section style */
+
+.quickContactContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding : 50px 10%;
+  background-color: #000;
+  color : rgba(255,255,255,.7);
+  font-family: cursive;
+}
+.quickContactContainer p {
+  width: 70%;
+  margin : auto;
+}
+.quickContactContainer h3 {
+  font-weight: 400;
+}
 
 
+/* Quickservices section styles */
 
+.quickServicesContainer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding : 60px 70px;
+  gap: 20px;
+}
+.quickServicesIconContainer:hover .iconFlat {
+  transform: rotate(360deg);
+}
+.quickServicesContainer p {
+  /* width: 80%;
+  margin : auto; */
+}
+.quickServicesIconContainer {
+  width: 100px;
+  height: 100px;
+  margin : auto;
+  border-radius: 50%;
+  background-color: var(--iconColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+/* Story section style */
+/* decided not to use this style anymore, opted for <Welcom /> */
+
+/* .storyContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin : 10px auto 100px auto;
+}
+
+.storySideImage {
+  height: 600px;
+  background-image: url(/images/welcomeBg1.jpg);
+}
+.storyContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35%;
+  margin-left: -70%;
+  background-color: rgba(0,0,0,.7);
+}
+.storyContent p{
+  width: 70%;
+  margin : 0px auto;
+}  */
 
 
 
@@ -211,8 +299,16 @@ nav ul li a:hover {
 .welcomeContainer {
   position: relative;
   display: grid;
-  height: 450px;
+  height: 600px;
   grid-template-columns: 1fr 1fr;
+}
+.welcomeContainer::before {
+  position: absolute;
+  content : '';
+  top: 0;left: 0;
+  width : 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
 }
 .welcomeRight {
   /* background-color: rgba(0,0,0); */
@@ -223,18 +319,22 @@ nav ul li a:hover {
 .welcomeContentWrapper {
   /* padding : 5%; */
   position: absolute;
-  top : 10%;
+  top : 15%;
   left : 20%;
   text-align: center;
-  color : whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 65%;
   background-color: rgba(0,0,0,.7);
-  padding : 20px 0px;
+  padding : 60px 0px;
   border-radius: 10px;
+}
+.welcomeContentWrapper h1 {
+  color : rgba(255,255,255,.9);
+  font-family: cursive;
+  font-weight: 400;
 }
 .welcomeContentWrapper p {
   margin: 0px !important;

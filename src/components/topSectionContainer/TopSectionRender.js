@@ -1,6 +1,10 @@
 import React, {Component} from 'react'
 import Navigation from './Navigation'
 import IntroText from './IntroText'
+import QuickContact from './QuickContact'
+import QuickServices from './QuickServices'
+// import Stroy from './Story'
+
 import Welcome from './Welcome'
 
 const introTexts = ['Wonderful Taste And Beautiful Place', 'Paradise Of Comfort And Satisfaction']
@@ -35,6 +39,8 @@ class TopSectionRender extends Component {
           <Navigation />
           <IntroText />
         </div>
+        <QuickContact />
+        <QuickServices />
         <Welcome />
       </div>
     )

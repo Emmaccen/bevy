@@ -5,7 +5,7 @@ import TopSectionRender from './components/topSectionContainer/TopSectionRender'
 function App() {
   return (
     <div className="App">
-      <TopSectionRender/>
+      <TopSectionRender />
     </div>
   );
 }

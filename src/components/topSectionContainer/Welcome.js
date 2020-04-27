@@ -13,11 +13,12 @@ class Welcome extends Component {
             <div className='backgroundFix welcomeRight'>
                 <div className='welcomeContentWrapper'>
                     <h1>Welcome To Bevily Foods</h1>
-                    <p className='descriptionText'>
+                    <p className='descriptionText2'>
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        sunt in culpa qui officia deserunt. Holla !
                     </p>
                 </div>
             </div>
