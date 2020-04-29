@@ -29,7 +29,7 @@ class QuickMenu extends React.Component {
                             </div>
                             <div>
                                 <p className='descriptionText2'>Excepteur cupidatat sint occaecat cupidatat</p>
-                                <h3 className='heading2'>$ 9.99</h3>
+                                <h3 className='heading2'>$ 19.99</h3>
                                 <Button2 buttonText = 'Add To Cart' />
                             </div>
                         </div>
@@ -42,7 +42,7 @@ class QuickMenu extends React.Component {
                             </div>
                             <div>
                                 <p className='descriptionText2'>Excepteur cupidatat sint occaecat cupidatat</p>
-                                <h3 className='heading2'>$ 9.99</h3>
+                                <h3 className='heading2'>$ 27.99</h3>
                                 <Button2 buttonText = 'Add To Cart' />
                             </div>
                         </div>
@@ -55,7 +55,7 @@ class QuickMenu extends React.Component {
                             </div>
                             <div>
                                 <p className='descriptionText2'>Excepteur cupidatat sint occaecat cupidatat</p>
-                                <h3 className='heading2'>$ 9.99</h3>
+                                <h3 className='heading2'>$ 46.99</h3>
                                 <Button2 buttonText = 'Add To Cart' />
                             </div>
                         </div>

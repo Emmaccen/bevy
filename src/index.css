@@ -83,7 +83,7 @@ button {
   font-size: 16px;
   color : whitesmoke;
   padding : 15px;
-  border : 1px solid #999;
+  border : 1px solid rgba(255,165,0,.3);
 }
 .button2 button{
   outline : none;
@@ -93,9 +93,37 @@ button {
   color : #333;
   padding : 7px;
 }
-.button button:hover, .button2 button:hover {
+.button button:hover, .button2 button:hover, form button:hover {
   background-color: var(--iconColor);
   color : whitesmoke;
+}
+.button button:active, .button2 button:active, form button:active {
+  filter: brightness(50%);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: whitesmoke;
+  opacity: 1; /* Firefox */
+  font-family: cursive;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+::selection {
+  background: var(--iconColor); /* WebKit/Blink Browsers */
+  color : #333;
+}
+::-moz-selection {
+  background: var(--iconColor); /* Gecko Browsers */
+  color : #333;
 }
 
 
@@ -107,7 +135,7 @@ button {
 .homeSectionContainer {
   transition: 1.3s all ease;
   position: relative;
-  background-image: url(/images/HomeBg1.jpg);
+  background-image: url(/images/homeBg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -127,7 +155,7 @@ button {
 /* navigation styles */
 .navContainer {
   position: relative;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid rgba(255,165,0,.3);
   top: 0px;
   width: 100%;
   z-index: 2;
@@ -371,4 +399,231 @@ nav ul li a:hover {
   width: 100%;
   height: 400px;
   transition: 1.4s all ease;
+}
+
+/* presentation setion style */
+
+.presentation {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  width: 80%;
+  margin : auto;
+  gap: 40px;
+}
+.presentationDescription .heading2 {
+  font-size: 40px !important;
+}
+.presentation .presentationDescription p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+/* video section style */
+
+.videoBg{
+  height: 100%;
+  width: 100%;
+  background-image: url(/images/food2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color : whitesmoke;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+.videoBg::before {
+  position: absolute;
+  content : '';
+  top : 0;left : 0;
+  width: 100%;
+  height : 100%;
+  background-color: rgba(0,0,0,.7);
+}
+.videoBg .vidDescription {
+  position: relative;
+  padding-bottom: 70px;
+}
+.vidDescription h1{
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: 400 !important;
+}
+.vidDescription .icon-play2 {
+  font-size: 50px !important;
+  color : var(--iconColor);
+  cursor: pointer;
+}
+
+.vidOverflow {
+  position: fixed;
+  top: 0;left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoContainer {
+  width: 75%;
+  height: 75%;
+}
+.videoContainer video {
+  width: 100%;
+  height: 100%;
+  outline-color: var(--iconColor);
+}
+.cancelBtn {
+  position: absolute;
+  top: 35px;right : 35px;
+  font-size: 20px;
+  font-weight: 400;
+  transition: .5s all ease;
+  cursor: pointer;
+}
+
+.cancelBtn:hover {
+  color : var(--iconColor);
+}
+
+/* make a reservation section style */
+
+.reservationsFormContainer {
+  position: relative;
+  background-image: url(/images/reserve.jpg);
+  margin-top: 200px;
+}
+.reservationsFormContainer * {
+  color : whitesmoke;
+}
+.reservationsFormContainer::before {
+  position: absolute;
+  content : '';
+  top: 0;left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+}
+.reservationsFormWrapper {
+  width : 60%;
+  margin : auto;
+  padding : 100px 10px;
+  position: relative;
+}
+.reservationHeader {
+  width : 60%;
+  margin : auto;
+  text-align: center;
+}
+.reservationHeader h1 {
+  margin : 0;
+  
+}
+
+form .formGroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  margin-top: 60px;
+  font-family: cursive;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input, select {
+  width: 100%;
+  padding : 15px;
+  outline-color: var(--iconColor);
+  background-color: transparent;
+  border: 1px solid grey;
+  transition: .2s all ease;
+}
+select option{
+ background-color: #333;
+}
+form input:focus, form select:focus{
+  border-color: var(--iconColor);
+  outline: none;
+}
+form button  {
+/* i intentionally re-wrote the global button style (with lil changes of-course :)*/
+outline : none;
+border: none;
+background-color : transparent;
+font-size: 16px;
+padding : 15px;
+border : 1px solid rgba(255,165,0,.3);
+}
+form .centered {
+  margin : 40px;
+}
+
+/* blog section style */
+
+.blogsWrapper {
+  padding: 10%;
+  font-family: cursive;
+}
+.blogsWrapper .centered {
+  margin-bottom : 50px;
+}
+.blogsWrapper .centered .heading2 {
+  position: relative;
+  padding-top : 5px;
+  font-size: 40px;
+}
+.blogsWrapper .centered .heading2::before {
+  position: absolute;
+  content: '';
+  top: 0;left: 0;
+  border-top: 3px solid var(--iconColor);
+  height: 100%;
+  width: 40%;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.blogs .heading2 a {
+  color : #333;
+}
+.blogs .heading2 a:hover {
+  color : var(--iconColor);
+}
+.blogImg{
+  width: 100%;
+  transition: .5s all ease;
+}
+.blogImgCover {
+  overflow: hidden;
+}
+
+.blogImg:hover {
+  transform : scale(1.2);
+  
+}
+
+.blogs ul {
+  display: flex;
+}
+.blogs ul li {
+  margin-right : 15px;
+  color : rgb(179,179,179);
+  font-size: 16px;
+}
+.blogs * a {
+  color : var(--iconColor);
+}
+.blogs p > a {
+  font-size: 18px;
+}
+.blogs .descriptionText2 {
+  /* font-size: 18px; */
 }
