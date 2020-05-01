@@ -17,7 +17,7 @@ class IntroText extends Component {
         <div><h1>Hello There !</h1></div>
           <div><h1 id='showCase'>Wonderful Taste And Beautiful Place</h1></div>
           <div>
-            <p>
+            <p className='descriptionText'>
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </p>
