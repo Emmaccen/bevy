@@ -27,7 +27,7 @@ body {
 }
 
 .descriptionText {
-  font-size: 25px;
+  font-size: 23px;
   line-height: 1.2em;
   color : rgba(255,255,255,.6);
 }
@@ -528,7 +528,8 @@ nav ul li a:hover {
   margin : 0;
 }
 .reservationHeader span , .quickMenuHeader h1 span,
-.presentationDescription h1 span, .contactHeader h1 span {
+.presentationDescription h1 span, .contactHeader h1 span, 
+.highlight {
   background-color: var(--iconColor);
   color : #333;
   padding : 2px;
@@ -729,4 +730,60 @@ form textarea {
 .formGrid input::-ms-input-placeholder { /* Microsoft Edge */
   color: grey;
   /* font-family: cursive; */
+}
+
+
+/* Meet our employees style section */
+
+.meetContentWrapper {
+  width : 80%;
+  margin : auto;
+  margin-bottom: 100px;
+}
+.meetHeader {
+  margin-bottom: 50px;
+}
+.meetHeader .styledHeader{
+  color : var(--iconColor);
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.meetHeader .heading2 {
+  margin-top: -20px;
+}
+
+.employeeContentWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.employeeContentWrapper .staffImage {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+.employeeContainer .staffLinks {
+  position: absolute;
+  top: 0; bottom: 0;
+  background-color: #333;
+  transition: .5s all ease;
+}
+
+.employeeContainer .staffLinks ul {
+  padding-top: 20px;
+}
+.employeeContainer .staffLinks ul li {
+  padding : 10px;
+}
+.employeeContentWrapper .icon {
+  color : whitesmoke;
+}
+.employeeContentWrapper .icon:hover {
+  color : var(--iconColor);
+}
+
+.staffIdentity{
+  display: flex;
+  justify-content: space-between;
 }

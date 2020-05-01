@@ -9,7 +9,7 @@ class Blogs extends React.Component {
         return (
             <div className='blogsWrapper'>
                 <div className='centered'>
-                    <h1 className='heading2'>Our Blogs</h1>
+                    <h1 className='heading2'>Recent Blogs</h1>
                 </div>
 
                 <div className='blogs'>
@@ -21,7 +21,7 @@ class Blogs extends React.Component {
                         </div>
                         <div>
                             <h2 className='heading2'>
-                                <a href='#'>Heading One from the blog section</a>
+                                <a href='#'>How To Make Deserts In A Plane</a>
                             </h2>
                             <div>
                                 <ul>
@@ -50,7 +50,7 @@ class Blogs extends React.Component {
                         </div>
                         <div>
                             <h2 className='heading2'>
-                                <a href='#'>Heading One from the blog section</a>
+                                <a href='#'>The Biggest Winery In Tahoma</a>
                             </h2>
                             <div>
                                 <ul>
@@ -79,7 +79,7 @@ class Blogs extends React.Component {
                         </div>
                         <div>
                             <h2 className='heading2'>
-                                <a href='#'>Heading One from the blog section</a>
+                                <a href='#'>Weight Loss Tips And Tricks</a>
                             </h2>
                             <div>
                                 <ul>
