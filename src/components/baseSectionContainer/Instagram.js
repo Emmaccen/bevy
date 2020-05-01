@@ -7,7 +7,7 @@ class Instagram extends React.Component {
         return (
             <div>
                 <div className='instaHeader'>
-                    
+                    <h1>Latest From <span className='highlight'>Instagram</span></h1>
                 </div>
             </div>
         )
