@@ -1,4 +1,5 @@
 import React from 'react'
+import Instagram from './Instagram'
 import Contact from './Contact'
 
 
@@ -8,6 +9,7 @@ class BaseSectionRender extends React.Component {
         
         return (
             <div>
+                <Instagram />
                 <Contact />
             </div>
         )
