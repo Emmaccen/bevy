@@ -13,10 +13,10 @@ class Story extends Component {
                     <div className='storyContent'>
                         <h1 className='heading2'>Welcome To Bevily Foods</h1>
                         <p className='descriptionText2'>
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        An old grandma brings a bus driver a bag of peanuts every day. 
+                        First the bus driver enjoyed the peanuts but after a week of eating them he asked: 
+                        "Please granny, don't bring me peanuts anymore. Have them yourself.".The granny answers: 
+                        "You know, I don't have teeth anymore. I just prefer to suck the chocolate around them.
                         </p>
                     </div>
                 </div>
