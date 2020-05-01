@@ -14,7 +14,7 @@ class QuickMenu extends React.Component {
                             <span className='iconFlat flaticon-tray'></span>
                         </div>
                         <div>
-                            <h1 className='heading2'>Explor Our Delicious Specialties</h1>
+                            <h1 className='heading2'>Explor Our Delicious <span>Specialties</span></h1>
                             <p className='descriptionText2'>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
                         </div>
                     </div>

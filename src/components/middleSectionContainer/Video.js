@@ -39,7 +39,7 @@ class Video extends Component {
             <div className='presentation'>
                 <div>
                     <div className='presentationDescription'>
-                        <h1 className='heading2'>Taste a delicious food here in Nigeria, inspired since 1000BC !</h1>
+                        <h1 className='heading2'><span>Taste</span> a delicious food here in Nigeria, inspired <span>since</span> 1000BC !</h1>
                         <p className='descriptionText2'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Quo tempora cumque eligendi in nostrum labore omnis quaerat.

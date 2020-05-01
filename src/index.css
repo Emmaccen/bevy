@@ -6,8 +6,10 @@
 
 body {
   margin: 0;
-  font-family: 'EB Garamond';
+  /* font-family: 'EB Garamond'; */
+  font-family: 'Handlee', cursive;
   /* font-family: 'Cormorant Garamond'; */
+  /* font-family: cursive; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,11 +36,11 @@ body {
   line-height: 1.3em;
   /* color : rgba(0,0,0,.8); */
   color : #666;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .heading2{
   color : #333;
-  font-family: cursive;
+  /* font-family: cursive; */
   font-weight: 400;
 }
 
@@ -104,17 +106,17 @@ button {
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: whitesmoke;
   opacity: 1; /* Firefox */
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: whitesmoke;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: whitesmoke;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 ::selection {
@@ -252,7 +254,10 @@ nav ul li a:hover {
   padding : 50px 10%;
   background-color: #000;
   color : rgba(255,255,255,.7);
-  font-family: cursive;
+  /* font-family: cursive; */
+}
+.quickContactContainer a:hover, .quickContactLinks p:hover{
+  color : var(--iconColor);
 }
 .quickContactContainer p {
   width: 70%;
@@ -358,7 +363,7 @@ nav ul li a:hover {
 }
 .welcomeContentWrapper h1 {
   color : rgba(255,255,255,.9);
-  font-family: cursive;
+  /* font-family: cursive; */
   font-weight: 400;
 }
 .welcomeContentWrapper p {
@@ -446,8 +451,8 @@ nav ul li a:hover {
   padding-bottom: 70px;
 }
 .vidDescription h1{
-  font-size: 35px;
-  font-family: cursive;
+  font-size: 30px;
+  /* font-family: cursive; */
   font-weight: 400 !important;
 }
 .vidDescription .icon-play2 {
@@ -521,7 +526,13 @@ nav ul li a:hover {
 }
 .reservationHeader h1 {
   margin : 0;
-  
+}
+.reservationHeader span , .quickMenuHeader h1 span,
+.presentationDescription h1 span, .contactHeader h1 span {
+  background-color: var(--iconColor);
+  color : #333;
+  padding : 2px;
+  font-size: inherit;
 }
 
 form .formGroup{
@@ -529,7 +540,7 @@ form .formGroup{
   grid-template-columns: 1fr 1fr;
   gap: 20px 40px;
   margin-top: 60px;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 form label {
   display: block;
@@ -567,7 +578,7 @@ form .centered {
 
 .blogsWrapper {
   padding: 10%;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 .blogsWrapper .centered {
   margin-bottom : 50px;
@@ -626,4 +637,96 @@ form .centered {
 }
 .blogs .descriptionText2 {
   /* font-size: 18px; */
+}
+
+
+/* contact us section styles */
+
+
+.contactContainer {
+  width: 85%;
+  margin : auto;
+  margin-bottom: 100px;
+}
+
+.contactHeader {
+  text-align: center;
+  width: 50%;
+  margin : auto;
+  margin-bottom: 50px;
+}
+
+.contactHeader h1::first-letter {
+  border-bottom: 3px solid var(--iconColor);
+ }
+ 
+.contactImage {
+  width: 100%;
+  height: 60%;
+  background-image: url(/images/food2.jpg);
+  border-radius: 10px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap : 40px;
+}
+
+.qcl {
+  margin-top: 30px;
+}
+.qcl .descriptionText2 {
+  font-size: 18px;
+}
+.formGrid .quickContactLinks .qcl div * {
+  display: inline;
+}
+.formGrid .quickContactLinks .qcl div {
+  margin-top: 30px;
+}
+.formGrid div div .icon {
+  font-size: 18px;
+  margin-right: 20px;
+  border : 1px solid var(--shade);
+  padding : 12px;
+}
+.formGrid input {
+  margin-bottom: 10px;
+}
+.formGrid .contactForm .centered button{
+  display: block;
+}
+.formGrid button {
+  width: 100%;
+  color : whitesmoke;
+  background-color: var(--iconColor);
+  margin-top: 20px;
+}
+form textarea {
+  width: 100%;
+  min-height: 170px;
+  margin-top: 20px;
+  resize: vertical;
+  outline-color: var(--iconColor);
+  padding: 10px;
+}
+.form .contactForm label {
+  margin-bottom: 20px;
+}
+
+.formGrid input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey;
+  opacity: 1; /* Firefox */
+  /* font-family: cursive; */
+}
+
+.formGrid input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: grey;
+  /* font-family: cursive; */
+}
+
+.formGrid input::-ms-input-placeholder { /* Microsoft Edge */
+  color: grey;
+  /* font-family: cursive; */
 }

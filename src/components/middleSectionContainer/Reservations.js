@@ -10,7 +10,7 @@ class Reservations extends Component {
             <div className='backgroundFix reservationsFormContainer'>
                 <div className='reservationsFormWrapper'>
                     <div className='reservationHeader'>
-                        <h1 className='heading2'>Make A Reservation</h1>
+                        <h1 className='heading2'>Make A <span>Reservation</span></h1>
                         <p className='descriptionText2'>Even the all-powerful Pointing has no control about 
                             the blind texts it is an.
                         </p>
