@@ -2,6 +2,7 @@ import React from 'react'
 import Instagram from './Instagram'
 import Meet from './Meet'
 import Contact from './Contact'
+import Footer from './Footer'
 
 
 class BaseSectionRender extends React.Component {
@@ -13,6 +14,7 @@ class BaseSectionRender extends React.Component {
                 <Instagram />
                 <Meet />
                 <Contact />
+                <footer />
             </div>
         )
     }
