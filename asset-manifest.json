@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bevy/static/css/main.7ab03518.chunk.css",
+    "main.js": "/bevy/static/js/main.71ea3de6.chunk.js",
+    "main.js.map": "/bevy/static/js/main.71ea3de6.chunk.js.map",
+    "runtime-main.js": "/bevy/static/js/runtime-main.d5667673.js",
+    "runtime-main.js.map": "/bevy/static/js/runtime-main.d5667673.js.map",
+    "static/js/2.1ee332b7.chunk.js": "/bevy/static/js/2.1ee332b7.chunk.js",
+    "static/js/2.1ee332b7.chunk.js.map": "/bevy/static/js/2.1ee332b7.chunk.js.map",
+    "index.html": "/bevy/index.html",
+    "precache-manifest.6577f60f2c0b35ec37b0578dcadfd162.js": "/bevy/precache-manifest.6577f60f2c0b35ec37b0578dcadfd162.js",
+    "service-worker.js": "/bevy/service-worker.js",
+    "static/css/main.7ab03518.chunk.css.map": "/bevy/static/css/main.7ab03518.chunk.css.map",
+    "static/js/2.1ee332b7.chunk.js.LICENSE.txt": "/bevy/static/js/2.1ee332b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5667673.js",
+    "static/js/2.1ee332b7.chunk.js",
+    "static/css/main.7ab03518.chunk.css",
+    "static/js/main.71ea3de6.chunk.js"
+  ]
+}
