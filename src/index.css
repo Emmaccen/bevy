@@ -857,3 +857,38 @@ form textarea {
   display: flex;
   justify-content: space-between;
 }
+
+/* footer section style */
+
+.footerSection hr {
+  border : .1px solid rgb(255,165,0,.3);
+  width: 80%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+  text-align: center;
+  background-color: #333;
+}
+footer .descriptionText2, footer .icon{
+  color : whitesmoke;
+}
+footer .icon {
+  margin-right: 25px;
+}
+footer .footerSocialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li{
+  display: inline;
+}
+.waterMark a, .waterMark span {
+  color : var(--iconColor);
+}
+footer ul li:hover a {
+  color : var(--iconColor);
+}

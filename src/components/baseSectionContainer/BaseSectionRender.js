@@ -14,7 +14,7 @@ class BaseSectionRender extends React.Component {
                 <Instagram />
                 <Meet />
                 <Contact />
-                <footer />
+                <Footer />
             </div>
         )
     }
