@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a3cf28bb98c78dca593ce3ba73170f1",
+    "revision": "fbd48119a525ad14640e626de9685151",
     "url": "/bevy/index.html"
   },
   {
-    "revision": "f77db0ff27ffd6c8c107",
+    "revision": "1c1c1e99dd2632f7ba35",
     "url": "/bevy/static/css/main.7ab03518.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bevy/static/js/2.1ee332b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f77db0ff27ffd6c8c107",
-    "url": "/bevy/static/js/main.71ea3de6.chunk.js"
+    "revision": "1c1c1e99dd2632f7ba35",
+    "url": "/bevy/static/js/main.6d2c1b9f.chunk.js"
   },
   {
     "revision": "7e77f8f1608faa17ce20",
