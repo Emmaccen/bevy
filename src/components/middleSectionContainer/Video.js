@@ -58,7 +58,7 @@ class Video extends Component {
                     </div>
                     <div style={{display : 'none'}} id='vidLayout' className='vidOverflow'>
                         <div className='videoContainer'>
-                            <video id='vidPlayer' controls src='/video/vid.mp4'></video>
+                            <video id='vidPlayer' controls src='video/vid.mp4'></video>
                         </div>
                         <span title='Close Video' onClick={this.closeAndVid} className='cancelBtn icon-cross2'></span>
                     </div>

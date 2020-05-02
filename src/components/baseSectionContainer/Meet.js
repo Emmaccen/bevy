@@ -17,7 +17,7 @@ class Meet extends React.Component {
                 <div className='employeeContentWrapper'>
                     
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person1.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person1.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>
@@ -36,7 +36,7 @@ class Meet extends React.Component {
                     </div>
 
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person2.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person2.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>
@@ -55,7 +55,7 @@ class Meet extends React.Component {
                     </div>
 
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person3.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person3.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>
@@ -74,7 +74,7 @@ class Meet extends React.Component {
                     </div>
 
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person4.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person4.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>
@@ -95,7 +95,7 @@ class Meet extends React.Component {
                     {/* =================================================================== */}
 
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person5.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person5.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>
@@ -114,7 +114,7 @@ class Meet extends React.Component {
                     </div>
 
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person6.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person6.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>
@@ -133,7 +133,7 @@ class Meet extends React.Component {
                     </div>
 
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person7.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person7.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>
@@ -152,7 +152,7 @@ class Meet extends React.Component {
                     </div>
 
                     <div className='employeeContainer'>                        
-                        <div style={{backgroundImage : `url(${'/staffImages/person8.jpg'})`}} className='backgroundFix staffImage'>
+                        <div style={{backgroundImage : `url(${'staffImages/person8.jpg'})`}} className='backgroundFix staffImage'>
                             <div className='staffLinks'>
                                 <ul>
                                     <li><a className='icon icon-instagram2' href='#'></a></li>

@@ -8,7 +8,7 @@ import QuickServices from './QuickServices'
 import Welcome from './Welcome'
 
 const introTexts = ['Wonderful Taste And Beautiful Place', 'Paradise Of Comfort And Satisfaction']
-const backgroundImages = ['/images/homeBg1.jpg', '/images/homeBg2.jpg']
+const backgroundImages = ['images/homeBg1.jpg', 'images/homeBg2.jpg']
 let index = 0;
 
 class TopSectionRender extends Component {

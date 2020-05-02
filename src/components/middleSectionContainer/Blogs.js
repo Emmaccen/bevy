@@ -15,7 +15,7 @@ class Blogs extends React.Component {
                 <div className='blogs'>
                     <div>
                         <div className='blogImgCover'>
-                            <div style={{backgroundImage : `url(${'blogimgs/blog1.jpg'})`, height: '350px'}} 
+                            <div style={{backgroundImage : `url(${'blogImgs/blog1.jpg'})`, height: '350px'}} 
                             className='blogImg backgroundFix'>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ class Blogs extends React.Component {
 
                     <div>
                         <div className='blogImgCover'>
-                            <div style={{backgroundImage : `url(${'blogimgs/blog5.jpg'})`, height : '450px'}} 
+                            <div style={{backgroundImage : `url(${'blogImgs/blog5.jpg'})`, height : '450px'}} 
                             className='blogImg backgroundFix'>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ class Blogs extends React.Component {
 
                     <div>
                         <div className='blogImgCover'>
-                            <div style={{backgroundImage : `url(${'blogimgs/blog4.jpg'})`, height : '500px'}} 
+                            <div style={{backgroundImage : `url(${'blogImgs/blog4.jpg'})`, height : '500px'}} 
                             className='blogImg backgroundFix'>
                             </div>
                         </div>
