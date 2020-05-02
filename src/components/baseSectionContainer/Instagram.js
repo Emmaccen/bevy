@@ -19,14 +19,20 @@ class Instagram extends React.Component {
 
                     <div className='grid-1'>
                         <div style={{backgroundImage : `url(${'instaImages/1.jpg'}`}} className='backgroundFix instaBg'>
-                            
+                            <div className='iconOverlay'>
+                                <a href='#' className='iconFlat icon-instagram2'></a>
+                            </div>
                         </div>
                         <div className='split'>
                             <div style={{backgroundImage : `url(${'instaImages/2.jpg'}`}} className='backgroundFix instaBg'>
-                            
+                                <div className='iconOverlay'>
+                                    <a href='#' className='iconFlat icon-instagram2'></a>
+                                </div>
                             </div>
                             <div style={{backgroundImage : `url(${'instaImages/3.jpg'}`}} className='backgroundFix instaBg'>
-                            
+                                <div className='iconOverlay'>
+                                    <a href='#' className='iconFlat icon-instagram2'></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -35,15 +41,21 @@ class Instagram extends React.Component {
 
                         <div className='split'>
                             <div style={{backgroundImage : `url(${'instaImages/4.jpg'}`}} className='backgroundFix instaBg'>
-                            
+                                <div className='iconOverlay'>
+                                    <a href='#' className='iconFlat icon-instagram2'></a>
+                                </div>
                             </div>
                             <div style={{backgroundImage : `url(${'instaImages/5.jpg'}`}} className='backgroundFix instaBg'>
-                            
+                                <div className='iconOverlay'>
+                                    <a href='#' className='iconFlat icon-instagram2'></a>
+                                </div>
                             </div>
                         </div>
 
                         <div style={{backgroundImage : `url(${'instaImages/6.jpg'}`}} className='backgroundFix instaBg'>
-                            
+                                <div className='iconOverlay'>
+                                    <a href='#' className='iconFlat icon-instagram2'></a>
+                                </div>
                         </div>
                     </div>
                     
