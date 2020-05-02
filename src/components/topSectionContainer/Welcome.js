@@ -7,7 +7,7 @@ class Welcome extends Component {
     render() {
         return(
         <div className='welcomeContainer'>
-            <div style={{backgroundImage : `url(${'images/welcomeBg.jpg'})`}} className='backgroundFix welcomeLeft'>
+            <div style={{backgroundImage : `url(${'/images/welcomeBg.jpg'})`}} className='backgroundFix welcomeLeft'>
 
             </div>
             <div className='backgroundFix welcomeRight'>

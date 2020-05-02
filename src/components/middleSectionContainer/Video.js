@@ -46,7 +46,7 @@ class Video extends Component {
                         </p>
                     </div>
                 </div>
-                <div style={{backgroundImage : `url(${'images/food1.jpg'})`}} className='backgroundFix descImg'>
+                <div style={{backgroundImage : `url(${'/images/food1.jpg'})`}} className='backgroundFix descImg'>
 
                 </div>
                 <div className='backgroundFix videoBg'>
