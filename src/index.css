@@ -162,7 +162,7 @@ button {
   width: 100%;
   z-index: 2;
   background-color: var(--shade);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .homeLink{
   text-transform: uppercase;
@@ -176,11 +176,11 @@ nav {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   grid-gap: 10px;
-  margin-top: 15px !important;
   margin-bottom: 5px !important;
   font-size: 20px;
   text-align: center;
   padding : 7px;
+  padding-top: 15px;
   color : whitesmoke;
 }
 nav ul {
