@@ -46,21 +46,23 @@ class Video extends Component {
                         </p>
                     </div>
                 </div>
-                <div style={{backgroundImage : `url(${'/images/food1.jpg'})`}} className='backgroundFix descImg'>
+                <div className='block-2'>
+                    <div style={{backgroundImage : `url(${'/images/food1.jpg'})`}} className='backgroundFix descImg'>
 
-                </div>
-                <div className='backgroundFix videoBg'>
-                    <div className='vidDescription'>
-                        <h1>
-                            Expect The Very Best !
-                        </h1>
-                        <span onClick={this.openVid} title='Play Video' className='icon-play2'></span>
                     </div>
-                    <div style={{display : 'none'}} id='vidLayout' className='vidOverflow'>
-                        <div className='videoContainer'>
-                            <video id='vidPlayer' controls src='video/vid.mp4'></video>
+                    <div className='backgroundFix videoBg'>
+                        <div className='vidDescription'>
+                            <h1>
+                                Expect The Very Best !
+                            </h1>
+                            <span onClick={this.openVid} title='Play Video' className='icon-play2'></span>
                         </div>
-                        <span title='Close Video' onClick={this.closeAndVid} className='cancelBtn icon-cross2'></span>
+                        <div style={{display : 'none'}} id='vidLayout' className='vidOverflow'>
+                            <div className='videoContainer'>
+                                <video id='vidPlayer' controls src='video/vid.mp4'></video>
+                            </div>
+                            <span title='Close Video' onClick={this.closeAndVid} className='cancelBtn icon-cross2'></span>
+                        </div>
                     </div>
                 </div>
             </div>

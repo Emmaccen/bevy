@@ -29,8 +29,8 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>Emmaccen Emm</h4>
-                            <h4 className='heading2'>CEO Echo Digital</h4>
+                            <h4>Emmaccen E.</h4>
+                            <h4 className='heading2'>CEO Echo</h4>
                         </div>
 
                     </div>
@@ -48,7 +48,7 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>Precious Adigun</h4>
+                            <h4>Precious A.</h4>
                             <h4 className='heading2'>CEO Post-It</h4>
                         </div>
 
@@ -67,7 +67,7 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>Bianka Nochtova</h4>
+                            <h4>Bianka N.</h4>
                             <h4 className='heading2'>Founder Roboto</h4>
                         </div>
 
@@ -86,7 +86,7 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>David Aderogba</h4>
+                            <h4>David A.</h4>
                             <h4 className='heading2'>Founder Irislens</h4>
                         </div>
 
@@ -107,7 +107,7 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>David Aderogba</h4>
+                            <h4>David A.</h4>
                             <h4 className='heading2'>Founder Irislens</h4>
                         </div>
 
@@ -126,7 +126,7 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>David Aderogba</h4>
+                            <h4>David A.</h4>
                             <h4 className='heading2'>Founder Irislens</h4>
                         </div>
 
@@ -145,7 +145,7 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>David Aderogba</h4>
+                            <h4>David A.</h4>
                             <h4 className='heading2'>Founder Irislens</h4>
                         </div>
 
@@ -164,7 +164,7 @@ class Meet extends React.Component {
                         </div>
 
                         <div className='staffIdentity'>
-                            <h4>David Aderogba</h4>
+                            <h4>David A.</h4>
                             <h4 className='heading2'>Founder Irislens</h4>
                         </div>
 

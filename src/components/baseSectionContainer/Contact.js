@@ -29,7 +29,7 @@ class Contact extends React.Component {
                                 <div className='qcl'>
                                     <div>
                                         <span className='icon icon-location2'></span>
-                                        <p className='descriptionText2'>395 Killer Street, DeadZone, Lagos, Tokyo City.</p>
+                                        <p className='descriptionText2'>395 Killer Street, DeadZone, Tokyo City.</p>
                                     </div>
 
                                     <div>

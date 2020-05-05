@@ -13,7 +13,7 @@ class QuickServices extends React.Component {
                     <div><h2 className='heading2'>Quality Service</h2></div>
                     <div>
                         <p className='descriptionText2'>
-                            Excepteur sint occaecat, sunt in culpa qui officia deserunt. Hello there !
+                            Excepteur sint occaecat, sunt in cul qui. Hello there !
                         </p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ class QuickServices extends React.Component {
                     <div><h2 className='heading2'>Delicious Food</h2></div>
                     <div>
                         <p className='descriptionText2'>
-                            Excepteur sint occaecat, sunt in culpa qui officia deserunt. Hello there !
+                            Excepteur sint occaecat, sunt in cul qui. Hello there !
                         </p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ class QuickServices extends React.Component {
                     <div><h2 className='heading2'>Friendly Staff</h2></div>
                     <div>
                         <p className='descriptionText2'>
-                            Excepteur sint occaecat, sunt in culpa qui officia deserunt. Hello there !
+                            Excepteur sint occaecat, sunt in cul qui. Hello there !
                         </p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ class QuickServices extends React.Component {
                     <div><h2 className='heading2'>Easy Reservation</h2></div>
                     <div>
                         <p className='descriptionText2'>
-                            Excepteur sint occaecat, sunt in culpa qui officia deserunt. Hello there !
+                            Excepteur sint occaecat, sunt in cul qui. Hello there !
                         </p>
                     </div>
                 </div>
