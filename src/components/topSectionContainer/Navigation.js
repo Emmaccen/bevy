@@ -23,7 +23,7 @@ class Navigation extends React.Component {
 
           <div id='anim' className='navigation'>
 
-          <span style={{display : 'none'}} class="closeBtn">&times;</span>
+          <span style={{display : 'none'}} className="closeBtn">&times;</span>
 
             <ul className='menuLinks'>
               <li><a href="#">Home</a></li>

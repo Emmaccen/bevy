@@ -48,11 +48,11 @@ class Contact extends React.Component {
                                 <form>
                                     <div className='contactForm'>
                                         <div>
-                                            <label for='contact-name'>Fullname</label>
+                                            <label htmlFor='contact-name'>Fullname</label>
                                             <input required placeholder='Fullname' type='name' name='contact-name'></input>
                                         </div>
                                         <div>
-                                            <label for='contact-email'>Email</label>
+                                            <label htmlFor='contact-email'>Email</label>
                                             <input required placeholder='Mail' name='contact-email' type='email'></input>
                                         </div>
 

@@ -33,23 +33,23 @@ class Reservations extends Component {
                         <div className='formGroup'>
 
                             <div>
-                                <label for='fullName'>Fullname</label>
+                                <label htmlFor='fullName'>Fullname</label>
                                 <input required style={{color : 'white !important'}} placeholder='Name' name='fullName' type='name'></input>
                             </div>
                             <div>
-                                <label for='email'>Email</label>
+                                <label htmlFor='email'>Email</label>
                                 <input required placeholder='Mail' name='email' type='email'></input>
                             </div>
                             <div>
-                                <label for='phone'>Phone</label>
+                                <label htmlFor='phone'>Phone</label>
                                 <input required placeholder='Phone Number' name='phone' type='tel'></input>
                             </div>
                             <div>
-                                <label for='date'>Date</label>
+                                <label htmlFor='date'>Date</label>
                                 <input required placeholder='Date' name='date' type='date'></input>
                             </div>
                             <div>
-                                <label for='time'>Time</label>
+                                <label htmlFor='time'>Time</label>
                                 <select required placeholder='Time' name='time' type='time'>
                                     <option value='7:00am'>7:00am</option>
                                     <option value='8:00am'>8:00am</option>
@@ -65,7 +65,7 @@ class Reservations extends Component {
                                 </select>
                             </div>
                             <div>
-                                <label for='person'>Person</label>
+                                <label htmlFor='person'>Person</label>
                                 <select required name='person' type='number'>
                                     <option value='1 Person'>1 Person</option>
                                     <option value='2 Persons'>2 Persons</option>
