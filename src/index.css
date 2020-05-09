@@ -164,6 +164,11 @@ button {
   background-color: var(--shade);
   /* overflow: hidden; */
 }
+.navigation {
+  /* for the phone navigation in case we suddenly switch back to
+  desktop mode from mobile(hidden by default on mobile) */
+  display: block;
+}
 .homeLink{
   text-transform: uppercase;
   cursor: pointer;
