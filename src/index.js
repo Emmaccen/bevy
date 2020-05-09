@@ -43,7 +43,12 @@ window.onload = ()=> {
         }, 10000)
   }
 
-  changeBackgroundImage();
+  try {
+    console.log('changing....')
+    changeBackgroundImage();
+  } catch (error) {
+    console.log('not in homepage, so cant change background ' + error)
+  }
 
   // code snippet for the phone menu handler
 
