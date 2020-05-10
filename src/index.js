@@ -30,25 +30,24 @@ window.onload = ()=> {
     const showCase = document.getElementById('showCase')
     const homeBackground = document.getElementById('background')
         setInterval(()=> {
- if(index === 2){
-    index = 0
-    showCase.innerHTML = introTexts[index]
-    homeBackground.style.backgroundImage = `url(${backgroundImages[index]})`
-    index ++
- }else {
-    showCase.innerHTML = introTexts[index]
-    homeBackground.style.backgroundImage = `url(${backgroundImages[index]})`
-    index ++
+ try {
+    if(index === 2){
+      index = 0
+      showCase.innerHTML = introTexts[index]
+      homeBackground.style.backgroundImage = `url(${backgroundImages[index]})`
+      index ++
+  }else {
+      showCase.innerHTML = introTexts[index]
+      homeBackground.style.backgroundImage = `url(${backgroundImages[index]})`
+      index ++
+  }
+ } catch (error) {
+   console.log('not in home page ' + error)
  }
         }, 10000)
   }
 
-  try {
-    console.log('changing....')
-    changeBackgroundImage();
-  } catch (error) {
-    console.log('not in homepage, so cant change background ' + error)
-  }
+  changeBackgroundImage()
 
   // code snippet for the phone menu handler
 
@@ -57,6 +56,17 @@ window.onload = ()=> {
   const closeBtn = document.querySelector('.closeBtn')
   const nav = document.querySelector('.navigation')
   
+  window.addEventListener('resize', ()=> {
+    if(window.innerWidth >= 850){
+      menu.style.display = 'block'
+    }else {
+      menu.style.display = 'none'
+      // use this is you don't want fade effect on resize
+    //   nav.style.WebkitAnimation = ""; // Code for Chrome, Safari and Opera
+    // nav.style.animation = "";     // Standard syntax
+    }
+  })
+
  function closeNav () {
     nav.style.WebkitAnimation = "fadeOut 1s"; // Code for Chrome, Safari and Opera
     nav.style.animation = "fadeOut 1s";     // Standard syntax

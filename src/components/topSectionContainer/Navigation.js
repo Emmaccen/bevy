@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 class Navigation extends React.Component {
@@ -26,13 +27,24 @@ class Navigation extends React.Component {
           <span style={{display : 'none'}} className="closeBtn">&times;</span>
 
             <ul className='menuLinks'>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              {/* <li><a href="#">Support</a></li> */}
+              <Link to='/'>
+                <li id='home'>Home</li>
+              </Link>
+              <Link to='/MenuPage'>
+                <li id='menu'>Menu</li>
+              </Link>
+
+                <li id='services'>Services</li>
+
+              <Link to='/BlogPage'>
+                <li id='blogs'>Blogs</li>
+              </Link>
+              <Link to='/AboutPage'>
+                <li id='about'>About</li>
+              </Link>
+              <Link to='/ContactPage'>
+                <li id='contact'>Contact</li>
+              </Link>
             </ul>
           </div>
 
