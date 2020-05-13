@@ -51,6 +51,10 @@ body {
   --shade : rgb(0,0,0,.3);
 }
 
+.active {
+  color : var(--iconColor);
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -948,6 +952,9 @@ footer ul li:hover a {
   width: 100%;
   height : 600px;
 }
+.aboutPageWrapper .meetContentWrapper {
+  margin-top: 100px;
+}
 .aboutPage::before  {
   position: absolute;
   content: '';
@@ -970,8 +977,58 @@ footer ul li:hover a {
   background-color: rgba(0,0,0,.6);
   width: 100%;
   height: 100%;
+}
+
+.menu {
+  width: 90%;
+  margin : auto;
+}
+.menu .menuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuHeader .menuButtons  button{
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  background-color: transparent;
   
 }
+.menuItemsWrapper {
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+.menuItemsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap : 20px;
+}
+.menuItemsWrapper .menuItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.menuItemsWrapper .menuDetails {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menuDetails .descriptionText2 {
+  font-size: 15px;
+}
+.menuDetails h3 {
+  margin-top: 0px;
+}
+.menuDetails h4 {
+  color : var(--iconColor);
+}
+.menuItem .menuImage {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
 
 /* blogPage */
 
@@ -996,6 +1053,7 @@ footer ul li:hover a {
   background-image: url(/images/contactPageBg.jpg);
   width: 100%;
   height : 600px;
+  margin-bottom: 150px;
 }
 .contactPage::before  {
   position: absolute;
@@ -1005,6 +1063,8 @@ footer ul li:hover a {
   width: 100%;
   height: 100%;
 }
+
+
 .page .pageMapContainer{
   position: absolute;
   bottom: 10%;
