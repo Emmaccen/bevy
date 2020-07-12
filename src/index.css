@@ -943,11 +943,23 @@ footer ul li:hover a {
 
 /* Single pages style sections */
 
+.menuPage::before, .aboutPage::before, .blogPage::before,
+.contactPage::before {
+  position: absolute;
+  content: '';
+  top : 0; left: 0;
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  height: 100%;
+}
+
+
 /* aboutPage */
 .aboutPage #about, .menuPage #menu, .blogPage #blogs, .contactPage #contact {
   color : var(--iconColor);
 }
 .aboutPage {
+  position: relative;
   background-image: url(/images/vidBg.jpg);
   width: 100%;
   height : 600px;
@@ -955,30 +967,14 @@ footer ul li:hover a {
 .aboutPageWrapper .meetContentWrapper {
   margin-top: 100px;
 }
-.aboutPage::before  {
-  position: absolute;
-  content: '';
-  top : 0; left: 0;
-  background-color: rgba(0,0,0,.6);
-  width: 100%;
-  height: 100%;
-}
 
 /* menuPage */
 .menuPage {
+  position: relative;
   background-image: url(/images/food2.jpg);
   width: 100%;
   height : 600px;
 }
-.menuPage::before  {
-  position: absolute;
-  content: '';
-  top : 0; left: 0;
-  background-color: rgba(0,0,0,.6);
-  width: 100%;
-  height: 100%;
-}
-
 .menu {
   width: 90%;
   margin : auto;
@@ -1033,17 +1029,10 @@ footer ul li:hover a {
 /* blogPage */
 
 .blogPage {
+  position: relative;
   background-image: url(/images/blogPageBg.jpg);
   width: 100%;
   height : 600px;
-}
-.blogPage::before  {
-  position: absolute;
-  content: '';
-  top : 0; left: 0;
-  background-color: rgba(0,0,0,.6);
-  width: 100%;
-  height: 100%;
 }
 
 /* contactPage */
@@ -1055,19 +1044,10 @@ footer ul li:hover a {
   height : 600px;
   margin-bottom: 150px;
 }
-.contactPage::before  {
-  position: absolute;
-  content: '';
-  top : 0; left: 0;
-  background-color: rgba(0,0,0,.6);
-  width: 100%;
-  height: 100%;
-}
-
 
 .page .pageMapContainer{
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   width: 100%;
   display: flex;
   justify-content: center;

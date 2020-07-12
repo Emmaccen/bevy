@@ -18,37 +18,6 @@ ReactDOM.render(
 serviceWorker.unregister();
 
 window.onload = ()=> {
-
-  // code snippet for the changing background 
-
-  const introTexts = ['Wonderful Taste And Beautiful Place', 'Paradise Of Comfort And Satisfaction']
-  const backgroundImages = ['/images/homeBg1.jpg', '/images/homeBg2.jpg']
-  let index = 0;
-
-  function changeBackgroundImage () {
-    
-    const showCase = document.getElementById('showCase')
-    const homeBackground = document.getElementById('background')
-        setInterval(()=> {
- try {
-    if(index === 2){
-      index = 0
-      showCase.innerHTML = introTexts[index]
-      homeBackground.style.backgroundImage = `url(${backgroundImages[index]})`
-      index ++
-  }else {
-      showCase.innerHTML = introTexts[index]
-      homeBackground.style.backgroundImage = `url(${backgroundImages[index]})`
-      index ++
-  }
- } catch (error) {
-   console.log('not in home page ' + error)
- }
-        }, 10000)
-  }
-
-  changeBackgroundImage()
-
   // code snippet for the phone menu handler
 
   const menu = document.querySelector('.navigation')
