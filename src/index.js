@@ -18,12 +18,9 @@ ReactDOM.render(
 serviceWorker.unregister();
 
 window.onload = ()=> {
-  // code snippet for the phone menu handler
+  // code snippet for the phone-type menu display
 
   const menu = document.querySelector('.navigation')
-  const menuIcon = document.querySelector('.menuIcon')
-  const closeBtn = document.querySelector('.closeBtn')
-  const nav = document.querySelector('.navigation')
   
   window.addEventListener('resize', ()=> {
     if(window.innerWidth >= 850){
@@ -36,7 +33,7 @@ window.onload = ()=> {
     }
   })
 
- function closeNav () {
+/* 
     nav.style.WebkitAnimation = "fadeOut 1s"; // Code for Chrome, Safari and Opera
     nav.style.animation = "fadeOut 1s";     // Standard syntax
     setTimeout(()=> {
@@ -54,5 +51,6 @@ window.onload = ()=> {
   closeBtn.onclick = ()=> {
     closeNav()
   }
+  */
 
 };
