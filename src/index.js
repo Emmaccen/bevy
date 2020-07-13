@@ -32,8 +32,11 @@ window.onload = ()=> {
     // nav.style.animation = "";     // Standard syntax
     }
   })
+  // keeping this code commented just in case i might need it in the future
+  // even tho i doubt i'll ever have to need it :)
 
 /* 
+  function closeNav () {
     nav.style.WebkitAnimation = "fadeOut 1s"; // Code for Chrome, Safari and Opera
     nav.style.animation = "fadeOut 1s";     // Standard syntax
     setTimeout(()=> {
