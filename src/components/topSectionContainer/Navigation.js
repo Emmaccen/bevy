@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import $ from 'jquery'
 
 
 class Navigation extends React.Component {
@@ -9,6 +10,12 @@ class Navigation extends React.Component {
   //   behavior: 'smooth'
   // });
 
+  openNav () {
+    $('.navigation').fadeIn()
+  }
+  closeNav () {
+    $('.navigation').fadeOut()
+  }
   render(){
 
     return (
@@ -24,7 +31,7 @@ class Navigation extends React.Component {
 
           <div id='anim' className='navigation'>
 
-          <span style={{display : 'none'}} className="closeBtn">&times;</span>
+          <span onClick={this.closeNav} style={{display : 'none'}} className="closeBtn">&times;</span>
 
             <ul className='menuLinks'>
               <Link to='/'>
@@ -51,7 +58,7 @@ class Navigation extends React.Component {
           <div className='cart centered'>
                 <span title='Open Cart' className="icon icon-cart"></span>
                 <span id='cartNumber'>3</span>
-                <span title='Open Menu' className='menuIcon icon icon-menu'></span>
+                <span onClick={this.openNav} title='Open Menu' className='menuIcon icon icon-menu'></span>
           </div>
 
         </nav>
