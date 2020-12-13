@@ -1284,8 +1284,13 @@ footer ul li:hover a {
       }
       /* quick menu style section */
       .quickMenuItemsContainer {
-        width: 90%;
         gap: 20px;
+        grid-template-columns: 1fr;
+        width: 70%;
+        text-align: left;
+      }
+      .quickMenuItemWrapper * {
+        margin: 5px 0px;
       }
 
       /* contact section */
@@ -1310,12 +1315,11 @@ footer ul li:hover a {
       .menuItemsWrapper .menuItem .menuImage {
         height: 250px;
       }
-      .quickMenuItemsContainer {
-        grid-template-columns: 1fr;
-        width: 70%;
-      }
       .introTextContainer p {
         width: 90%;
+      }
+      .menuItemsWrapper .menuDetails {
+        padding-left: 0px;
       }
       @media (max-width: 700px) {
         /* home section */
@@ -1384,10 +1388,6 @@ footer ul li:hover a {
         .quickMenuHeader {
           width: 90%;
         }
-        .quickMenuItemsContainer {
-          display: block;
-          text-align: start;
-        }
         .quickMenuItemWrapper {
           margin: 20px;
         }
@@ -1451,6 +1451,14 @@ footer ul li:hover a {
         .employeeContentWrapper .staffImage {
           height: 300px;
         }
+        .menu .menuHeader {
+          display: block;
+          text-align: center;
+        }
+        .menuItemsWrapper .menuDetails * {
+          margin: 3px 0px;
+        }
+
         @media (max-width: 550px) {
           .menuItemsWrapper .menuItem {
             grid-template-columns: 1fr;

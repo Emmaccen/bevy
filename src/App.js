@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
-import MenuPage from "./MenuPage";
-import BlogPage from "./BlogPage";
-import AboutPage from "./AboutPage";
-import ContactPage from "./ContactPage";
+import MenuPage from "./components/pages/MenuPage";
+import BlogPage from "./components/pages/BlogPage";
+import AboutPage from "./components/pages/AboutPage";
+import ContactPage from "./components/pages/ContactPage";
 import TopSectionRender from "./components/topSectionContainer/TopSectionRender";
 import MiddleSectionRender from "./components/middleSectionContainer/MiddleSectionRender";
 import BaseSectionRender from "./components/baseSectionContainer/BaseSectionRender";

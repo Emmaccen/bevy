@@ -1,10 +1,10 @@
 import React from "react";
-import Navigation from "./components/topSectionContainer/Navigation";
-import PageMaps from "./components/PageMaps";
-import QuickContact from "./components/topSectionContainer/QuickContact";
-import Welcome from "./components/topSectionContainer/Welcome";
-import Meet from "./components/baseSectionContainer/Meet";
-import Footer from "./components/baseSectionContainer/Footer";
+import Navigation from "../topSectionContainer/Navigation";
+import PageMaps from "../PageMaps";
+import QuickContact from "../topSectionContainer/QuickContact";
+import Welcome from "../topSectionContainer/Welcome";
+import Meet from "../baseSectionContainer/Meet";
+import Footer from "../baseSectionContainer/Footer";
 
 class AboutPage extends React.Component {
   render() {
