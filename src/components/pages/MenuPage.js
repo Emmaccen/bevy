@@ -91,7 +91,7 @@ class MenuPage extends React.Component {
               </button>
               <button
                 onClick={() => this.filterMenuList("drink")}
-                className={this.state.active === "drink" && "drink"}
+                className={this.state.active === "drink" && "active"}
               >
                 Drinks
               </button>

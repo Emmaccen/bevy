@@ -26,13 +26,13 @@ function App() {
         </Route>
 
         <Switch>
-          <Route path="/MenuPage" component={MenuPage}></Route>
+          <Route exact path="/MenuPage" component={MenuPage}></Route>
 
-          <Route path="/BlogPage" component={BlogPage}></Route>
+          <Route exact path="/BlogPage" component={BlogPage}></Route>
 
-          <Route path="/AboutPage" component={AboutPage}></Route>
+          <Route exact path="/AboutPage" component={AboutPage}></Route>
 
-          <Route path="/ContactPage" component={ContactPage}></Route>
+          <Route exact path="/ContactPage" component={ContactPage}></Route>
         </Switch>
       </Router>
     </div>
