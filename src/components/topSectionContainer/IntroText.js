@@ -1,42 +1,41 @@
-import React, {Component} from 'react'
-import Button from '../Button'
+import React, { Component } from "react";
+import Button from "../Button";
 
 class IntroText extends Component {
+  constructor() {
+    super();
 
-    constructor() {
-      super()
+    this.state = {
+      intro: "",
+    };
+  }
 
-      this.state = {
-        intro : ''
-      }
-    }
-
-  render () {
+  render() {
     return (
-      <div className='introTextContainer'>
-        <div><h1>Hello There !</h1></div>
-          <div><h1 id='showCase'>Wonderful Taste And Beautiful Place</h1></div>
+      <div className="introTextContainer">
+        <div>
+          <h1>Hello There !</h1>
+        </div>
+        <div>
+          <h1 id="showCase">Wonderful Taste, Beautiful Place</h1>
+        </div>
+        <div>
+          <p className="descriptionText">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div className="buttonContainer">
           <div>
-            <p className='descriptionText'>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
-            </p>
+            <Button buttonText="Order Now" />
           </div>
-          <div className='buttonContainer'>
-            <div>
-              <Button
-              buttonText = 'Order Now'
-              />
-            </div>
-            <div>
-              <Button
-              buttonText = 'View Menu'
-              />
-            </div>
+          <div>
+            <Button buttonText="View Menu" />
           </div>
+        </div>
       </div>
-    )
+    );
   }
 }
 
-export default IntroText
+export default IntroText;

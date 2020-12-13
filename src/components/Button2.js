@@ -1,14 +1,13 @@
-import React, {Component} from 'react'
+import React, { Component } from "react";
 
 class Button2 extends Component {
-    
-  render () {
+  render() {
     return (
-      <div className='button2'>
+      <div className="button2">
         <button>{this.props.buttonText}</button>
       </div>
-    )
+    );
   }
 }
 
-export default Button2
+export default Button2;
