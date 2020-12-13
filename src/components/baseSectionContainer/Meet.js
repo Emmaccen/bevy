@@ -20,16 +20,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -49,16 +69,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -78,16 +118,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -107,16 +167,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -138,16 +218,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -167,16 +267,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -196,16 +316,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -225,16 +365,36 @@ class Meet extends React.Component {
               <div className="staffLinks">
                 <ul>
                   <li>
-                    <a className="icon icon-instagram2" href="#"></a>
+                    <a
+                      className="icon icon-instagram2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-facebook2" href="#"></a>
+                    <a
+                      className="icon icon-facebook2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-linkedin2" href="#"></a>
+                    <a
+                      className="icon icon-linkedin2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                   <li>
-                    <a className="icon icon-twitter2" href="#"></a>
+                    <a
+                      className="icon icon-twitter2"
+                      href="https://emmaccen.netlify.app/"
+                    >
+                      {" "}
+                    </a>
                   </li>
                 </ul>
               </div>

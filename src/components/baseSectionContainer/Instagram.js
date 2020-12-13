@@ -24,7 +24,12 @@ class Instagram extends React.Component {
               className="backgroundFix instaBg"
             >
               <div className="iconOverlay">
-                <a href="#" className="iconFlat icon-instagram2"></a>
+                <a
+                  href="https://emmaccen.netlify.app/"
+                  className="iconFlat icon-instagram2"
+                >
+                  {" "}
+                </a>
               </div>
             </div>
             <div className="split">
@@ -33,7 +38,12 @@ class Instagram extends React.Component {
                 className="backgroundFix instaBg"
               >
                 <div className="iconOverlay">
-                  <a href="#" className="iconFlat icon-instagram2"></a>
+                  <a
+                    href="https://emmaccen.netlify.app/"
+                    className="iconFlat icon-instagram2"
+                  >
+                    {" "}
+                  </a>
                 </div>
               </div>
               <div
@@ -41,7 +51,12 @@ class Instagram extends React.Component {
                 className="backgroundFix instaBg"
               >
                 <div className="iconOverlay">
-                  <a href="#" className="iconFlat icon-instagram2"></a>
+                  <a
+                    href="https://emmaccen.netlify.app/"
+                    className="iconFlat icon-instagram2"
+                  >
+                    {" "}
+                  </a>
                 </div>
               </div>
             </div>
@@ -54,7 +69,12 @@ class Instagram extends React.Component {
                 className="backgroundFix instaBg"
               >
                 <div className="iconOverlay">
-                  <a href="#" className="iconFlat icon-instagram2"></a>
+                  <a
+                    href="https://emmaccen.netlify.app/"
+                    className="iconFlat icon-instagram2"
+                  >
+                    {" "}
+                  </a>
                 </div>
               </div>
               <div
@@ -62,7 +82,12 @@ class Instagram extends React.Component {
                 className="backgroundFix instaBg"
               >
                 <div className="iconOverlay">
-                  <a href="#" className="iconFlat icon-instagram2"></a>
+                  <a
+                    href="https://emmaccen.netlify.app/"
+                    className="iconFlat icon-instagram2"
+                  >
+                    {" "}
+                  </a>
                 </div>
               </div>
             </div>
@@ -72,7 +97,12 @@ class Instagram extends React.Component {
               className="backgroundFix instaBg"
             >
               <div className="iconOverlay">
-                <a href="#" className="iconFlat icon-instagram2"></a>
+                <a
+                  href="https://emmaccen.netlify.app/"
+                  className="iconFlat icon-instagram2"
+                >
+                  {" "}
+                </a>
               </div>
             </div>
           </div>

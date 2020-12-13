@@ -17,22 +17,33 @@ class Footer extends React.Component {
                 <a
                   className="icon icon-instagram2"
                   href="https://twitter.com/emmaccen"
-                ></a>
+                >
+                  {" "}
+                </a>
               </li>
               <li>
-                <a className="icon icon-facebook2" href="#"></a>
+                <a
+                  className="icon icon-facebook2"
+                  href="https://emmaccen.netlify.app/"
+                >
+                  {" "}
+                </a>
               </li>
               <li>
                 <a
                   className="icon icon-twitter2"
                   href="https://twitter.com/emmaccen"
-                ></a>
+                >
+                  {" "}
+                </a>
               </li>
               <li>
                 <a
                   className="icon icon-linkedin2"
                   href="https://www.linkedin.com/in/emmanuel-oriola-a31168185/"
-                ></a>
+                >
+                  {" "}
+                </a>
               </li>
             </ul>
           </div>

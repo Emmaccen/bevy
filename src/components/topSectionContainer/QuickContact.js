@@ -16,7 +16,9 @@ class QuickContact extends Component {
         <div className="quickContactContentContainer">
           <h3>
             <span className="icon icon-location2"></span>
-            <a href="#">395 Killer Street, DeadZone</a>
+            <a href="https://emmaccen.netlify.app/">
+              395 Killer Street, DeadZone
+            </a>
           </h3>
           <p className="descriptionText2">
             A small river named Duden flows by their place and supplies

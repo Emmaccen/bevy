@@ -21,14 +21,16 @@ class Blogs extends React.Component {
             </div>
             <div>
               <h2 className="heading2">
-                <a href="#">How To Make Deserts In A Plane</a>
+                <a href="https://emmaccen.netlify.app/">
+                  How To Make Deserts In A Plane
+                </a>
               </h2>
               <div>
                 <ul>
                   <li>Emmaccen Emm</li>
                   <li>June 19, 2020</li>
                   <li>
-                    <a href="#">Desert</a>
+                    <a href="https://emmaccen.netlify.app/">Desert</a>
                   </li>
                 </ul>
               </div>
@@ -39,7 +41,9 @@ class Blogs extends React.Component {
                   quaerat rerum voluptatibus
                 </p>
                 <p>
-                  <a href="#">Continue Reading ...</a>
+                  <a href="https://emmaccen.netlify.app/">
+                    Continue Reading ...
+                  </a>
                 </p>
               </div>
             </div>
@@ -57,14 +61,16 @@ class Blogs extends React.Component {
             </div>
             <div>
               <h2 className="heading2">
-                <a href="#">The Biggest Winery In Tahoma</a>
+                <a href="https://emmaccen.netlify.app/">
+                  The Biggest Winery In Tahoma
+                </a>
               </h2>
               <div>
                 <ul>
                   <li>Emmaccen Emm</li>
                   <li>June 19, 2020</li>
                   <li>
-                    <a href="#">Vegan</a>
+                    <a href="https://emmaccen.netlify.app/">Vegan</a>
                   </li>
                 </ul>
               </div>
@@ -75,7 +81,9 @@ class Blogs extends React.Component {
                   quaerat rerum voluptatibus
                 </p>
                 <p>
-                  <a href="#">Continue Reading ...</a>
+                  <a href="https://emmaccen.netlify.app/">
+                    Continue Reading ...
+                  </a>
                 </p>
               </div>
             </div>
@@ -93,14 +101,16 @@ class Blogs extends React.Component {
             </div>
             <div>
               <h2 className="heading2">
-                <a href="#">Weight Loss Tips And Tricks</a>
+                <a href="https://emmaccen.netlify.app/">
+                  Weight Loss Tips And Tricks
+                </a>
               </h2>
               <div>
                 <ul>
                   <li>Emmaccen Emm</li>
                   <li>June 19, 2020</li>
                   <li>
-                    <a href="#">Dinner</a>
+                    <a href="https://emmaccen.netlify.app/">Dinner</a>
                   </li>
                 </ul>
               </div>
@@ -111,7 +121,9 @@ class Blogs extends React.Component {
                   quaerat rerum voluptatibus
                 </p>
                 <p>
-                  <a href="#">Continue Reading ...</a>
+                  <a href="https://emmaccen.netlify.app/">
+                    Continue Reading ...
+                  </a>
                 </p>
               </div>
             </div>
