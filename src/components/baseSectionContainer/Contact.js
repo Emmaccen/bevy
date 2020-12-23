@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button";
+import Fade from "react-reveal/Fade";
 
 class Contact extends React.Component {
   render() {
@@ -7,21 +8,25 @@ class Contact extends React.Component {
       <div>
         <div>
           <div className="contactContainer">
-            <div className="centered contactHeader">
-              <div>
-                <h1 className="heading2">
-                  Get In <span>Touch</span>
-                </h1>
-                <p className="descriptionText2">
-                  sapiente veritatis reprehe suscipit quaerat rerum voluptatibus
-                  veritatis reprehe suscipit
-                </p>
+            <Fade bottom>
+              <div className="centered contactHeader">
+                <div>
+                  <h1 className="heading2">
+                    Get In <span>Touch</span>
+                  </h1>
+                  <p className="descriptionText2">
+                    sapiente veritatis reprehe suscipit quaerat rerum
+                    voluptatibus veritatis reprehe suscipit
+                  </p>
+                </div>
               </div>
-            </div>
+            </Fade>
 
             <div className="formGrid">
               <div className="quickContactLinks">
-                <div className="backgroundFix contactImage"></div>
+                <Fade bottom>
+                  <div className="backgroundFix contactImage"></div>
+                </Fade>
                 <div className="qcl">
                   <div>
                     <span className="icon icon-location2"></span>

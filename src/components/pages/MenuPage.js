@@ -5,11 +5,12 @@ import QuickMenu from "../middleSectionContainer/QuickMenu";
 import menuList from "../../Data/menuData";
 import Button2 from "../Button2";
 import Footer from "../baseSectionContainer/Footer";
+import Fade from "react-reveal/Fade";
 
 function MenuItems(props) {
   const list = props.menuList.map((menu) => {
     return (
-      <div>
+      <Fade bottom>
         <div className="menuItem">
           <div
             style={{ backgroundImage: `url(${menu.menuImage})` }}
@@ -22,7 +23,7 @@ function MenuItems(props) {
             <Button2 buttonText="Place Order" />
           </div>
         </div>
-      </div>
+      </Fade>
     );
   });
   return list;

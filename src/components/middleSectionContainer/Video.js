@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
 
 /* 
 i have no idea why i've re-written the functions when i could've 
@@ -33,46 +34,52 @@ class Video extends Component {
     return (
       <div className="presentation">
         <div>
-          <div className="presentationDescription">
-            <h1 className="heading2">
-              <span>Taste</span> a delicious food here in Nigeria, inspired{" "}
-              <span>since</span> 1000BC !
-            </h1>
-            <p className="descriptionText2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              tempora cumque eligendi in nostrum labore omnis quaerat.
-            </p>
-          </div>
+          <Fade bottom>
+            <div className="presentationDescription">
+              <h1 className="heading2">
+                <span>Taste</span> a delicious food here in Nigeria, inspired{" "}
+                <span>since</span> 1000BC !
+              </h1>
+              <p className="descriptionText2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                tempora cumque eligendi in nostrum labore omnis quaerat.
+              </p>
+            </div>
+          </Fade>
         </div>
         <div className="block-2">
-          <div
-            style={{ backgroundImage: `url(${"/images/food1.jpg"})` }}
-            className="backgroundFix descImg"
-          ></div>
-          <div className="backgroundFix videoBg">
-            <div className="vidDescription">
-              <h1>Expect The Very Best !</h1>
-              <span
-                onClick={this.openVid}
-                title="Play Video"
-                className="icon-play2"
-              ></span>
-            </div>
+          <Fade bottom>
             <div
-              style={{ display: "none" }}
-              id="vidLayout"
-              className="vidOverflow"
-            >
-              <div className="videoContainer">
-                <video id="vidPlayer" controls src="video/vid.mp4"></video>
+              style={{ backgroundImage: `url(${"/images/food1.jpg"})` }}
+              className="backgroundFix descImg"
+            ></div>
+          </Fade>
+          <Fade bottom>
+            <div className="backgroundFix videoBg">
+              <div className="vidDescription">
+                <h1>Expect The Very Best !</h1>
+                <span
+                  onClick={this.openVid}
+                  title="Play Video"
+                  className="icon-play2"
+                ></span>
               </div>
-              <span
-                title="Close Video"
-                onClick={this.closeAndVid}
-                className="cancelBtn icon-cross2"
-              ></span>
+              <div
+                style={{ display: "none" }}
+                id="vidLayout"
+                className="vidOverflow"
+              >
+                <div className="videoContainer">
+                  <video id="vidPlayer" controls src="video/vid.mp4"></video>
+                </div>
+                <span
+                  title="Close Video"
+                  onClick={this.closeAndVid}
+                  className="cancelBtn icon-cross2"
+                ></span>
+              </div>
             </div>
-          </div>
+          </Fade>
         </div>
       </div>
     );
