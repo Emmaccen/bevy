@@ -14,7 +14,7 @@ const introTexts = [
   "Wonderful Taste And Beautiful Place",
   "Paradise Of Comfort And Satisfaction",
 ];
-const backgroundImages = ["/images/homeBg1.jpg", "/images/homeBg2.jpg"];
+const backgroundImages = ["/images/vidBg.jpg", "/images/homeBg2.jpg"];
 let index = 0;
 
 function changeBackgroundImage() {
@@ -37,7 +37,7 @@ function changeBackgroundImage() {
     }
   }, 10000);
 }
-//  changeBackgroundImage()
+// changeBackgroundImage();s
 
 class TopSectionRender extends Component {
   render() {
