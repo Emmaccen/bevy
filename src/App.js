@@ -8,11 +8,12 @@ import ContactPage from "./components/pages/ContactPage";
 import TopSectionRender from "./components/topSectionContainer/TopSectionRender";
 import MiddleSectionRender from "./components/middleSectionContainer/MiddleSectionRender";
 import BaseSectionRender from "./components/baseSectionContainer/BaseSectionRender";
-
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Route path="/" exact component={TopSectionRender}>
           <TopSectionRender />
         </Route>

@@ -21,8 +21,8 @@ class IntroText extends Component {
         </div>
         <div>
           <p className="descriptionText">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+            recusandae nostrum est numquam nihil vero iste iure.
           </p>
         </div>
         <div className="buttonContainer">

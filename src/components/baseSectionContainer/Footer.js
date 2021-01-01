@@ -50,7 +50,7 @@ class Footer extends React.Component {
           <div className="waterMark">
             <p className="descriptionText2">
               Template Made With <span className="icon-heart"></span> by{" "}
-              <a href="https://emmaccen.github.io/emmaccen">Emmanuel.</a>
+              <a href="https://emmaccen.netlify.app/">Emmanuel.</a>
             </p>
           </div>
         </footer>
