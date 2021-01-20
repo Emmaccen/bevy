@@ -16,7 +16,6 @@ document.addEventListener("keydown", (event) => {
 
 class Video extends Component {
   closeAndVid() {
-    console.log("here");
     const overFlow = document.getElementById("vidLayout");
     const vidPlayer = document.getElementById("vidPlayer");
     vidPlayer.pause();
@@ -54,7 +53,7 @@ class Video extends Component {
               className="backgroundFix descImg"
             ></div>
           </Fade>
-          <Fade bottom>
+          <div>
             <div className="backgroundFix videoBg">
               <div className="vidDescription">
                 <h1>Expect The Very Best !</h1>
@@ -79,7 +78,7 @@ class Video extends Component {
                 ></span>
               </div>
             </div>
-          </Fade>
+          </div>
         </div>
       </div>
     );
