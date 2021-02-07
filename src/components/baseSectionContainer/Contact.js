@@ -37,16 +37,16 @@ class Contact extends React.Component {
 
                   <div>
                     <span className="icon icon-phone"></span>
-                    <a href="tel:+234-703-068-0817">
-                      <p className="descriptionText2">+234-703-068-0817</p>
+                    <a href="tel:+234-814-397-2237">
+                      <p className="descriptionText2">+234-814-397-2237</p>
                     </a>
                   </div>
 
                   <div>
                     <span className="icon icon-mail"></span>
-                    <a href="mailto:oriolaemmanuel199@gmail.com">
+                    <a href="mailto:lucius.emmanuel.e@gmail.com">
                       <p className="descriptionText2">
-                        oriolaemmanuel199@gmail.com
+                        lucius.emmanuel.e@gmail.com
                       </p>
                     </a>
                   </div>
