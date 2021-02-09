@@ -40,7 +40,7 @@ class Footer extends React.Component {
               <li>
                 <a
                   className="icon icon-linkedin2"
-                  href="https://www.linkedin.com/in/emmanuel-oriola-a31168185/"
+                  href="https://www.linkedin.com/in/emmanuel-lucius-emmaccen/"
                 >
                   {" "}
                 </a>
